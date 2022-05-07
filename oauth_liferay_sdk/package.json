@@ -1,0 +1,40 @@
+{
+  "name": "@gmdfrs/test-liferay-sdk-js",
+  "version": "0.0.9",
+  "description": "Lifery API FETCH custom SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lifery",
+    "sdk",
+    "autho2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmdfrs/test-liferay-sdk-js.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/gmdfrs/test-liferay-sdk-js#readme",
+  "bugs": {
+    "url": "https://github.com/gmdfrs/test-liferay-sdk-js/issues"
+  },
+  "author": "Yeser <gmdfrs@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "4.2.4"
+  },
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "axios": "0.21.1",
+    "base64url": "^3.0.1",
+    "react-oauth-popup": "^1.0.3"
+  }
+}
